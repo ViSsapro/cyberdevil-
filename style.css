@@ -1,0 +1,158 @@
+/* Premium Grid Background Styling */
+body {
+    background-color: #030712; 
+    /* Video eke thiyena widihata grid kotoo background eka */
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 30px 30px;
+    color: #f3f4f6;
+    font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    padding: 40px 20px;
+}
+
+/* Header with Gradient Text */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #3b82f6 0%, #a855f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header p {
+    color: #9ca3af;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Vertical Bot Cards List */
+.bot-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+/* Premium Card Layout from Video */
+.bot-card {
+    background-color: #0b0f19;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid #1f2937;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.bot-card:hover {
+    border-color: #3b82f6;
+    transform: translateY(-2px);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.bot-icon {
+    font-size: 1.5rem;
+}
+
+.bot-card h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+    color: #ffffff;
+}
+
+.bot-card p {
+    font-size: 0.95rem;
+    color: #9ca3af;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+/* Video Style Button with Gradient Icon Blur */
+.pair-btn {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 9999px; /* Rounded pill shape like video */
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: opacity 0.2s ease, transform 0.1s ease;
+}
+
+.pair-btn:hover {
+    opacity: 0.9;
+}
+
+.pair-btn:active {
+    transform: scale(0.97);
+}
+
+.arrow {
+    font-size: 1.1rem;
+    transition: transform 0.2s ease;
+}
+
+.pair-btn:hover .arrow {
+    transform: translateX(4px);
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    border-top: 1px solid #1f2937;
+    padding-top: 30px;
+}
+
+.dev-name {
+    font-size: 0.95rem;
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+.contact-link {
+    color: #3b82f6;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+/* Image එක රවුම් කරන්න සහ Size එක හදන්න */
+.bot-img {
+    width: 35px;          /* පින්තූරයේ පළල */
+    height: 35px;         /* පින්තූරයේ උස */
+    border-radius: 50%;   /* මේකෙන් තමයි පින්තූරය 100% රවුම් කරන්නේ */
+    object-fit: cover;    /* ඇද නොවී ලස්සනට රවුම මැදට Fit වෙන්න */
+    border: 2px solid #3b82f6; /* රවුම වටේට ලස්සන නිල් පාට බෝඩර් එකක් */
+}
