@@ -2,7 +2,7 @@
 const botLinks = {
     bot1: "https://thuhi-md-pro-sec8.onrender.com/",
     bot2: "https://your-bot2-pair-link.com",
-    bot3: "", // 3 වෙනි බොට් එකේ ලින්ක් එක මෙතනට දාන්න
+    bot3: "https://gayan-md.onrender.com", // 3 වෙනි බොට් එකේ ලින්ක් එක මෙතනට දාන්න
     bot4: "https://queen-neshu-md.onrender.com/",
     bot5: "https://queen-neshu-md.onrender.com/",
 };
